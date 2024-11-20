@@ -1,0 +1,67 @@
+.container__app {
+  @apply flex flex-col items-center;
+}
+
+.container__grid_3 {
+  @apply grid grid-cols-3;
+}
+
+.container__grid_4 {
+  @apply grid grid-cols-4;
+}
+
+.container__grid_5 {
+  @apply grid grid-cols-5;
+}
+
+.container__grid_6 {
+  @apply grid grid-cols-6;
+}
+
+.container__grid_7 {
+  @apply grid grid-cols-7;
+}
+
+.container__grid_8 {
+  @apply grid grid-cols-8;
+}
+
+.container__grid_9 {
+  @apply grid grid-cols-9;
+}
+
+.container__grid_10 {
+  @apply grid grid-cols-10;
+}
+
+.container__game_status_window {
+  @apply h-20 my-3 text-center;
+}
+
+.text__title {
+  @apply text-7xl font-bold;
+}
+
+.text__subtitle {
+  @apply text-3xl;
+}
+
+.text__status {
+  @apply text-lg;
+}
+
+.text__green {
+  @apply text-green-500;
+}
+
+.text__red {
+  @apply text-red-500;
+}
+
+.cell {
+  @apply w-16 h-16 p-3 bg-slate-400 border-2;
+}
+
+.button__reset {
+  @apply p-2 bg-slate-300 text-lg rounded-sm;
+}
